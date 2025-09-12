@@ -1,0 +1,39 @@
+body,
+* {
+    background-color: red;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: CENTER;
+    margin: 50PX;
+    width: 20vw;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    /* object-fit: cover; */
+}
+
+.child-one {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+  margin: 1rem auto;
+}
+.child-two {
+  width: 20rem;
+  height: 20rem;
+  background-color: green;
+}
+
+button {
+    background-color: brown;
+}

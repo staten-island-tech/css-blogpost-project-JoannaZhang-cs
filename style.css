@@ -5,7 +5,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
+  background-color: pink;
 }
 .card {
   width: 300px;
@@ -26,8 +26,7 @@ html {
   margin: 20px auto;
   justify-content: space-around;
 }
-
-.container {
+/* .container {
   width: 90vw;
   background-color: aqua;
   display: flex;
@@ -37,4 +36,4 @@ html {
   /* extra space on left and right of each print-color-adjust
     space-between gives space between the cards but not on the edges */
   flex-wrap: wrap;
-}
+} */

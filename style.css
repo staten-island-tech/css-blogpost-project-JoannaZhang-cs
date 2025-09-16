@@ -6,34 +6,91 @@ html {
   justify-content: center;
   align-items: center;
   background-color: pink;
+  background-image: url("https://media.istockphoto.com/id/1289049726/photo/daifukumochi-or-daifuku-is-a-japanese-confection-consisting-of-a-small-round-mochi-stuffed.jpg?s=612x612&w=0&k=20&c=rJAb-lId9hapf2H6Snty8KCvPXn57aMxeufsU72Lafs=");
+  background-size: cover;
+  background-position: center;
 }
+
 .card {
   width: 300px;
   height: 400px;
   background-color: red;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
 }
-
+h1 {
+  margin-top: 0;
+  color: darkblue;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  margin-top: 0;
+  color: blue;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ul {
+  padding-left: 20px;
+  margin: auto;
+  color: dark green;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ol {
+  padding-left: 20px;
+  margin: auto;
+  color: salmon;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  margin: auto;
+  color: rgb(231, 202, 231);
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.card h3 {
+  margin-top: 0;
+  color: white;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h4 {
+  margin-top: 0;
+  color: lightpink;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .card {
-  width: 20%;
+  width: 30%;
   height: 200px;
   background-color: green;
   margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
   justify-content: space-around;
 }
-/* .container {
-  width: 90vw;
-  background-color: aqua;
-  display: flex;
-  margin: 25px auto;
-  align-items: flex-end;
-  justify-content: space-around;
-  /* extra space on left and right of each print-color-adjust
-    space-between gives space between the cards but not on the edges */
-  flex-wrap: wrap;
-} */
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
